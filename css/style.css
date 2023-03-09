@@ -37,7 +37,7 @@ h3{
 .pageintros{
     background-image: url(../images/book.png);
     background-repeat: no-repeat;
-    background-size: 135%;
+    background-size: 133%;
     display: flex;
     flex-direction: column;
     margin-top: 2%;
