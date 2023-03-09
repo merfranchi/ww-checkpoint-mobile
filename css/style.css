@@ -1,0 +1,268 @@
+body{
+	background-color: #ffe9fe;
+	font-size: 125%;
+    padding-top: 4%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5% 0px 7% 0px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6%; 
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%; 
+    color: #ffffff;
+}
+
+.welcome p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.pageintros{
+    background-image: url(../images/book.png);
+    background-repeat: no-repeat;
+    background-size: 130%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    
+}
+
+.literature{
+    background-color: #000000;
+    margin: 11% 5% 0px 8%;
+}
+
+.literature p{
+    color: #ffffff;
+}
+
+.histpol{
+    background-color: #000000;
+    margin: 6% 5% 0px 8%;
+}
+
+.histpol p{
+    color: #ffffff;
+}
+
+.feministdict{
+    background-color: #000000;
+    margin: 6% 5% 10% 8%;
+}
+
+.feministdict p{
+    color: #ffffff;
+}
+
+.about{
+    margin-bottom: 3%;
+}
+
+.about h2{
+    margin: 2% 0px 6% 0px;
+}
+
+.about img{
+    display: block;
+    margin: 0px auto;
+    padding: 0.5%;
+    width: 90%;
+    border: double #7f3f66 15px;
+    border-radius: 10px;
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.bellhooks{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.bellhooks h3{
+    color: #000000;
+}
+
+.bellhooks img{
+    width: 75%;
+    /* border-top: double #7f3f66 15px;
+    border-right: double #7f3f66 15px; */
+    border-radius: 10px;
+}
+
+.bellhooks ul{
+    background-color: #7f3f66;
+    margin-top: 3%;
+    width: 50%;
+}
+
+.bellhooks li{
+    color: #ffffff;
+}
+
+.susanb{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.susanb img{
+    width: 65%;
+}
+
+.susanb h3{
+    color: #000000;
+}
+
+.words p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.defgrid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    column-gap: 3%;
+    row-gap: 1.5%;
+    justify-content: center;
+}
+
+.defcard{
+    background-color: #000000;
+    padding: 2%;
+}
+
+.defcard dt, dd{
+    color: #ffffff;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3% 5% 5% 5%;
+
+}
+
+
+dt{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+    padding: 0.5%;
+    width: 45%;
+    border: double #7f3f66 15px;
+    border-radius: 10px;
+}
+
+img:hover {
+    box-shadow: #a41b6f 10px 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #7f3f66;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 0px 20px 0px 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+}
+
+.active {
+    background-color: #000000;
+    padding: 5px;
+}
+
+
+.skip {
+    position: absolute;
+    left: -1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
+
+
+.skip:focus {
+    left: 0px;
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7f3f66;
+    padding: 9% 0px 5% 0px;
+    margin-top: 6%;
+    text-align: center;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+.thanks{
+    font-size: 30px;
+}
+
+.tops{
+    color: #ffffff;
+}
+
+/* @media screen and (min-width: 800px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+} */
